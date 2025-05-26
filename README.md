@@ -13,12 +13,12 @@
 📁 路径配置
 
 请在主代码顶部设置如下路径：
-
-- image_dir = 'F:/pythonProject1/wolfberry_dataset/images/test'       # RGB图像目录
-- depth_dir = 'D:/.../depth_images'                                   # 原始深度图目录
-- output_base_dir = 'F:/pythonProject1/wolfberry_results'             # 结果输出路径
-- model_path = 'runs/detect/train48/weights/best.pt'                  # 训练好的YOLO模型路径
-
+~~~
+image_dir = 'F:/pythonProject1/wolfberry_dataset/images/test'       # RGB图像目录
+depth_dir = 'D:/.../depth_images'                                   # 原始深度图目录
+output_base_dir = 'F:/pythonProject1/wolfberry_results'             # 结果输出路径
+model_path = 'runs/detect/train48/weights/best.pt'                  # 训练好的YOLO模型路径
+~~~
 ⚙️ 模块说明
 
 1. read_raw_depth_img()
